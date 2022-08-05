@@ -11,3 +11,18 @@
 .header-nav{
     background-color: brown;
 }
+.banner{
+    background-color:#ff3;
+     height: 600px;
+}
+
+@media(min-width:576px){
+    .banner{
+        height: 500px;
+    }
+}
+@media(min-width:992px){
+    .banner{
+        height: 600px;
+    }
+}
